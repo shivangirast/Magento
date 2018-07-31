@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <avi_adminhtml_avi_index>
+        <reference name="content">
+            <block type="avi/adminhtml_avi" name="avi" />
+        </reference>
+    </avi_adminhtml_avi_index>
+</layout>

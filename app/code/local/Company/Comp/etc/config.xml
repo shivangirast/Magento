@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Company_Comp>
+            <version>0.0.1</version>
+        </Company_Comp>
+    </modules>
+    <frontend>
+        <routers>
+            <Company>
+                <use>standard</use>
+                <args>
+                    <module>Company_Comp</module>
+                    <frontName>shi</frontName>
+                </args>
+            </Company>
+        </routers>
+        <layout>
+            <updates>
+                <company_comp>
+                    <file></file>
+                </company_comp>
+            </updates>
+        </layout>
+    </frontend>
+</config>
+

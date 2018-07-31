@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+
+<layout version="0.1.0">
+<company1_index_baby >
+    <reference name="content">
+        <block type="company/myblock" name="contactForm" template="shiv.phtml"/>
+    </reference>
+</company1_index_baby>
+</layout>

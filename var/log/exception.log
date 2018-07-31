@@ -1,0 +1,40 @@
+2018-06-21T13:49:41+00:00 ERR (3): 
+Zend_Mail_Transport_Exception: Unable to send mail. mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\magento\lib\Zend\Mail\Transport\Sendmail.php:143
+Stack trace:
+#0 C:\xampp\htdocs\magento\lib\Zend\Mail\Transport\Abstract.php(348): Zend_Mail_Transport_Sendmail->_sendMail()
+#1 C:\xampp\htdocs\magento\lib\Zend\Mail.php(1194): Zend_Mail_Transport_Abstract->send(Object(Zend_Mail))
+#2 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Email\Template.php(452): Zend_Mail->send()
+#3 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Email\Template.php(509): Mage_Core_Model_Email_Template->send('shi@shi.com', Array, Array)
+#4 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Email\Template\Mailer.php(83): Mage_Core_Model_Email_Template->sendTransactional('customer_create...', 'general', Array, Array, Array, '1')
+#5 C:\xampp\htdocs\magento\app\code\core\Mage\Customer\Model\Customer.php(719): Mage_Core_Model_Email_Template_Mailer->send()
+#6 C:\xampp\htdocs\magento\app\code\core\Mage\Customer\Model\Customer.php(624): Mage_Customer_Model_Customer->_sendEmailTemplate('customer/create...', 'customer/create...', Array, '1')
+#7 C:\xampp\htdocs\magento\app\code\core\Mage\Customer\controllers\AccountController.php(577): Mage_Customer_Model_Customer->sendNewAccountEmail('registered', '', '1', '123456')
+#8 C:\xampp\htdocs\magento\app\code\core\Mage\Customer\controllers\AccountController.php(352): Mage_Customer_AccountController->_welcomeCustomer(Object(Mage_Customer_Model_Customer))
+#9 C:\xampp\htdocs\magento\app\code\core\Mage\Customer\controllers\AccountController.php(304): Mage_Customer_AccountController->_successProcessRegistration(Object(Mage_Customer_Model_Customer))
+#10 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Mage_Customer_AccountController->createPostAction()
+#11 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('createpost')
+#12 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#13 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#14 C:\xampp\htdocs\magento\app\Mage.php(683): Mage_Core_Model_App->run(Array)
+#15 C:\xampp\htdocs\magento\index.php(83): Mage::run('', 'store')
+#16 {main}
+2018-06-24T11:42:52+00:00 ERR (3): 
+Zend_Mail_Transport_Exception: Unable to send mail. mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\magento\lib\Zend\Mail\Transport\Sendmail.php:143
+Stack trace:
+#0 C:\xampp\htdocs\magento\lib\Zend\Mail\Transport\Abstract.php(348): Zend_Mail_Transport_Sendmail->_sendMail()
+#1 C:\xampp\htdocs\magento\lib\Zend\Mail.php(1194): Zend_Mail_Transport_Abstract->send(Object(Zend_Mail))
+#2 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Email\Template.php(452): Zend_Mail->send()
+#3 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Email\Template.php(509): Mage_Core_Model_Email_Template->send('avi@a.com', Array, Array)
+#4 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\Email\Template\Mailer.php(83): Mage_Core_Model_Email_Template->sendTransactional('customer_create...', 'general', Array, Array, Array, '1')
+#5 C:\xampp\htdocs\magento\app\code\core\Mage\Customer\Model\Customer.php(719): Mage_Core_Model_Email_Template_Mailer->send()
+#6 C:\xampp\htdocs\magento\app\code\core\Mage\Customer\Model\Customer.php(624): Mage_Customer_Model_Customer->_sendEmailTemplate('customer/create...', 'customer/create...', Array, '1')
+#7 C:\xampp\htdocs\magento\app\code\core\Mage\Customer\controllers\AccountController.php(577): Mage_Customer_Model_Customer->sendNewAccountEmail('registered', '', '1', '123456')
+#8 C:\xampp\htdocs\magento\app\code\core\Mage\Customer\controllers\AccountController.php(352): Mage_Customer_AccountController->_welcomeCustomer(Object(Mage_Customer_Model_Customer))
+#9 C:\xampp\htdocs\magento\app\code\core\Mage\Customer\controllers\AccountController.php(304): Mage_Customer_AccountController->_successProcessRegistration(Object(Mage_Customer_Model_Customer))
+#10 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Mage_Customer_AccountController->createPostAction()
+#11 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('createpost')
+#12 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#13 C:\xampp\htdocs\magento\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#14 C:\xampp\htdocs\magento\app\Mage.php(683): Mage_Core_Model_App->run(Array)
+#15 C:\xampp\htdocs\magento\index.php(83): Mage::run('', 'store')
+#16 {main}

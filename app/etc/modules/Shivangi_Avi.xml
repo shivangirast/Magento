@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Shivangi_Avi>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Shivangi_Avi>
+    </modules>
+</config> 
