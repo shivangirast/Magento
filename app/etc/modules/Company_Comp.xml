@@ -22,7 +22,7 @@
 <config>
     <modules>
         <Company_Comp>
-            <active>true</active>
+            <active>false</active>
             <codePool>local</codePool>
         </Company_Comp>
     </modules>

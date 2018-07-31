@@ -2,7 +2,7 @@
 <config>
   <modules>
     <Babu_Romance>
-      <active>true</active>
+      <active>false</active>
       <codePool>local</codePool>
       <version>0.1.0</version>
     </Babu_Romance>
